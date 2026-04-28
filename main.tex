@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+\usepackage[most]{tcolorbox}
+
+\newtcolorbox{exercisebox}[1][]{
+  colback=blue!3,
+  colframe=blue!45!black,
+  title=Exercise,
+  fonttitle=\bfseries,
+  arc=2mm,
+  boxrule=0.8pt,
+  left=2mm,
+  right=2mm,
+  top=1mm,
+  bottom=1mm,
+  #1
+}
+
+\newtcolorbox{examplebox}[1][]{
+  colback=green!3,
+  colframe=green!40!black,
+  title=Example,
+  fonttitle=\bfseries,
+  arc=2mm,
+  #1
+}
+
+\newtcolorbox{notebox}[1][]{
+  colback=yellow!8,
+  colframe=yellow!45!black,
+  title=Note,
+  fonttitle=\bfseries,
+  arc=2mm,
+  #1
+}
+
+\newcommand{\answer}[1]{%
+  \medskip
+  \noindent\textbf{Answer:} #1%
+}
+
+\newcommand{\w}{\w}
+\newcommand{\z}{\z}
+
+\title{Fulton-Schubert Lecture Notes}
+\author{Pedro Angulo-Umana}
+\date{April 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Begin with the 3D primitive equations in log-p coordinates:
+\begin{subequations}
+\label{eq:linear_system}
+\begin{align}
+\frac{\partial u}{\partial t} - f v
+    &= -\frac{\partial \Phi}{\partial x},
+    \label{eq:linear_system_a} \\[0.5em]
+\frac{\partial v}{\partial t} + f u
+    &= -\frac{\partial \Phi}{\partial y},
+    \label{eq:linear_system_b} \\[0.5em]
+\frac{\partial u}{\partial x}
++ \frac{\partial v}{\partial y}
++ \frac{1}{\rho_B}
+  \frac{\partial}{\partial \z}
+  \left( \rho_B \w \right)
+    &= 0,
+    \label{eq:linear_system_c} \\[0.5em]
+\frac{\partial \Phi}{\partial \z}
+    &= \frac{R T}{H_s},
+    \label{eq:linear_system_d} \\[0.5em]
+\frac{\partial}{\partial t}
+\left(
+    \frac{\partial \Phi}{\partial \z}
+\right)
++ N^2 \w
+    &= 0.
+    \label{eq:linear_system_e}
+\end{align}
+\end{subequations}
+
+\begin{exercisebox}
+The first two equations of Eq.~\ref{eq:linear_system} are the zonal and meridional momentum equations. What are the corresponding ``names'' for the other three?
+
+\answer{The continuity equation, the hydrostatic balance equation, and the thermodynamic equation.}
+\end{exercisebox}
+We want to collapse all the vertical structure information into a single term. The vertical coordinate shows in in Eqs. \ref{eq:linear_system_c}-\ref{eq:linear_system_e}. These equations involve $u$, $v$, $w$, $T$, and $\phi$. The horizontal equations are just in terms of $u$, $v$, and $\phi$, so we should try to eliminate $w$ and $T$ by writing them in terms of the other three variables. 
+
+\par From the thermodynamic equation we have
+\begin{equation}
+    U oh 
+\end{equation}
+\end{document}
