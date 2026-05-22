@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}The Vertical Structure Operator}{2}{section.1}%
+\contentsline {section}{\numberline {2}Vertical Normal Modes as an Eigenbasis}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}What good would an eigenfunction do?}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}About these eigenfunctions}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Expanding the 3D equations}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Interpreting the vertical modes}{9}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Computing the Eigenfunctions}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}The barotropic mode $\psi _0$}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The baroclinic modes for constant $N^2$}{11}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Numerical Implementation}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Discretizing the vertical structure operator and the stiffness matrix}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Hat functions as a basis set $\eta _i$}{14}{subsection.4.2}%
