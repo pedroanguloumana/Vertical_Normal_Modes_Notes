@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# But keep these
+!.gitignore
+!README.md
+
+# Keep specific notebooks (un-ignore folder first, then files)
+!main.pdf
+!Computing_Vertical_Normal_Modes.ipynb
